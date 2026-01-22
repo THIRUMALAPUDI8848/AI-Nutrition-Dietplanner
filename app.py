@@ -8,7 +8,7 @@ from PIL import Image
 import time
 
 # Configure Gemini - Use environment variable for security
-GOOGLE_API_KEY= "AIzaSyAsZCETPZc0EP8obYGIebuynjJ-RoQk_Tg"  # AIzaSyDLKYdVg0MqT2gPPwdo-8Cr950_7JOai1U insert your Gemini API key https://aistudio.google.com/apikey
+GOOGLE_API_KEY= "YOUR API KEY"  # AIzaSyDLKYdVg0MqT2gPPwdo-8Cr950_7JOai1U insert your Gemini API key https://aistudio.google.com/apikey
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
@@ -403,4 +403,5 @@ with tab4:
 
 # Footer
 st.divider()
+
 st.caption("⚠️ Disclaimer: This AI assistant provides general health information. Always consult healthcare professionals for medical advice.")
